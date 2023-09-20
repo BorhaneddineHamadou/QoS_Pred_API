@@ -244,7 +244,10 @@ async def predict_endpoint(input_data:InputData):
             predicted = np.array(all_predictions).flatten()
         elif selected_horizon > 1 :
             actual = actual[-l:]
-            predicted = np.array(all_predictions).flatten()[:len(actual)]
+            try :
+                predicted = np.array(all_predictions).flatten()[:len(actual)]
+            except ValueError:
+                return HTTPException(status_code=400, detail=f"Please try again, an unexpected error occured.{all_predictions}")
         else :
             actual = actual[-l:]
             predicted = np.array(all_predictions).flatten()
