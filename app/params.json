@@ -1,0 +1,1363 @@
+{
+  "ESN": {
+    "univariate": {
+      "node1_delay": {
+        "1": {
+          "n_reservoir": 33,
+          "sparsity": 0.3,
+          "spectral_radius": 1.1,
+          "noise": 0.004,
+          "look_back": 261
+        },
+        "2": {
+          "Recursive": {
+            "n_reservoir": 33,
+            "sparsity": 0.3,
+            "spectral_radius": 1.1,
+            "noise": 0.004,
+            "look_back": 261
+          },
+          "Direct": {
+            "n_reservoir": 851,
+            "sparsity": 0.2,
+            "spectral_radius": 10.0,
+            "noise": 0.007,
+            "look_back": 11
+          },
+          "DirRec": {
+            "n_reservoir": 10,
+            "sparsity": 0.5,
+            "spectral_radius": 10.0,
+            "noise": 0.001,
+            "look_back": 444
+          },
+          "MIMO": {
+            "n_reservoir": 10,
+            "sparsity": 0.01,
+            "spectral_radius": 0.5,
+            "noise": 0.008,
+            "look_back": 352
+          },
+          "DIRMO": {
+            "n_reservoir": 10,
+            "sparsity": 0.01,
+            "spectral_radius": 0.5,
+            "noise": 0.008,
+            "look_back": 352
+          }
+        },
+        "4": {
+          "Recursive": {
+            "n_reservoir": 33,
+            "sparsity": 0.3,
+            "spectral_radius": 1.1,
+            "noise": 0.004,
+            "look_back": 261
+          },
+          "Direct": {
+            "n_reservoir": 851,
+            "sparsity": 0.2,
+            "spectral_radius": 10.0,
+            "noise": 0.007,
+            "look_back": 11
+          },
+          "DirRec": {
+            "n_reservoir": 10,
+            "sparsity": 0.5,
+            "spectral_radius": 10.0,
+            "noise": 0.001,
+            "look_back": 444
+          },
+          "MIMO": {
+            "n_reservoir": 11,
+            "sparsity": 0.01,
+            "spectral_radius": 10.0,
+            "noise": 0.001,
+            "look_back": 340
+          },
+          "DIRMO": {
+            "n_reservoir": 10,
+            "sparsity": 0.01,
+            "spectral_radius": 0.5,
+            "noise": 0.008,
+            "look_back": 352
+          }
+        },
+        "6": {
+          "Recursive": {
+            "n_reservoir": 33,
+            "sparsity": 0.3,
+            "spectral_radius": 1.1,
+            "noise": 0.004,
+            "look_back": 261
+          },
+          "Direct": {
+            "n_reservoir": 851,
+            "sparsity": 0.2,
+            "spectral_radius": 10.0,
+            "noise": 0.007,
+            "look_back": 11
+          },
+          "DirRec": {
+            "n_reservoir": 10,
+            "sparsity": 0.5,
+            "spectral_radius": 10.0,
+            "noise": 0.001,
+            "look_back": 444
+          },
+          "MIMO": {
+            "n_reservoir": 485,
+            "sparsity": 0.3,
+            "spectral_radius": 0.5,
+            "noise": 0.001,
+            "look_back": 71
+          },
+          "DIRMO": {
+            "n_reservoir": 78,
+            "sparsity": 0.3,
+            "spectral_radius": 10.0,
+            "noise": 0.001,
+            "look_back": 341
+          }
+        },
+        "8": {
+          "Recursive": {
+            "n_reservoir": 33,
+            "sparsity": 0.3,
+            "spectral_radius": 1.1,
+            "noise": 0.004,
+            "look_back": 261
+          },
+          "Direct": {
+            "n_reservoir": 851,
+            "sparsity": 0.2,
+            "spectral_radius": 10.0,
+            "noise": 0.007,
+            "look_back": 11
+          },
+          "DirRec": {
+            "n_reservoir": 10,
+            "sparsity": 0.5,
+            "spectral_radius": 10.0,
+            "noise": 0.001,
+            "look_back": 444
+          },
+          "MIMO": {
+            "n_reservoir": 981,
+            "sparsity": 0.1,
+            "spectral_radius": 1,
+            "noise": 0.003,
+            "look_back": 39
+          },
+          "DIRMO": {
+            "n_reservoir": 15,
+            "sparsity": 0.5,
+            "spectral_radius": 10.0,
+            "noise": 0.007,
+            "look_back": 233
+          }
+        },
+        "10": {
+          "Recursive": {
+            "n_reservoir": 33,
+            "sparsity": 0.3,
+            "spectral_radius": 1.1,
+            "noise": 0.004,
+            "look_back": 261
+          },
+          "Direct": {
+            "n_reservoir": 851,
+            "sparsity": 0.2,
+            "spectral_radius": 10.0,
+            "noise": 0.007,
+            "look_back": 11
+          },
+          "DirRec": {
+            "n_reservoir": 10,
+            "sparsity": 0.5,
+            "spectral_radius": 10.0,
+            "noise": 0.001,
+            "look_back": 444
+          },
+          "MIMO": {
+            "n_reservoir": 13,
+            "sparsity": 0.01,
+            "spectral_radius": 10.0,
+            "noise": 0.006,
+            "look_back": 328
+          },
+          "DIRMO": {
+            "n_reservoir": 10,
+            "sparsity": 0.01,
+            "spectral_radius": 0.5,
+            "noise": 0.008,
+            "look_back": 352
+          }
+        }
+      },
+      "node2_delay": {
+        "1": {
+          "n_reservoir": 33,
+          "sparsity": 0.3,
+          "spectral_radius": 1.1,
+          "noise": 0.004,
+          "look_back": 261
+        }
+      },
+      "node3_delay": {
+        "1": {
+          "n_reservoir": 33,
+          "sparsity": 0.3,
+          "spectral_radius": 1.1,
+          "noise": 0.004,
+          "look_back": 261
+        }
+      },
+      "node1_cpu": {
+        "1": {
+          "n_reservoir": 33,
+          "sparsity": 0.3,
+          "spectral_radius": 1.1,
+          "noise": 0.004,
+          "look_back": 261
+        }
+      },
+      "node2_cpu": {
+        "1": {
+          "n_reservoir": 13,
+          "sparsity": 0.5,
+          "spectral_radius": 1.25,
+          "noise": 0.002,
+          "look_back": 99
+        }
+      },
+      "node3_cpu": {
+        "1": {
+          "n_reservoir": 33,
+          "sparsity": 0.3,
+          "spectral_radius": 1.1,
+          "noise": 0.004,
+          "look_back": 261
+        }
+      },
+      "node1_ram": {
+        "1": {
+          "n_reservoir": 33,
+          "sparsity": 0.3,
+          "spectral_radius": 1.1,
+          "noise": 0.004,
+          "look_back": 261
+        }
+      },
+      "node2_ram": {
+        "1": {
+          "n_reservoir": 33,
+          "sparsity": 0.3,
+          "spectral_radius": 1.1,
+          "noise": 0.004,
+          "look_back": 261
+        }
+      },
+      "node3_ram": {
+        "1": {
+          "n_reservoir": 33,
+          "sparsity": 0.3,
+          "spectral_radius": 1.1,
+          "noise": 0.004,
+          "look_back": 261
+        }
+      }
+    },
+    "multivariate": {
+        "n_reservoir": 11,
+        "sparsity": 0.2,
+        "spectral_radius": 10.0,
+        "noise": 0.006,
+        "look_back": 289
+    },
+    "default": {
+      "n_reservoir": 33,
+      "sparsity": 0.3,
+      "spectral_radius": 1.1,
+      "noise": 0.004,
+      "look_back": 261
+    }
+  },
+  "LSTM": {
+    "univariate": {
+      "node1_delay": {
+        "1": {
+          "look_back": 100,
+          "num_hidden_layers": 2,
+          "learning_rate": 0.0015250869829489782,
+          "batch_size": 44,
+          "epochs": 82,
+          "rnn_units_layer_0": 15,
+          "rnn_units_layer_1": 32
+        },
+        "2": {
+          "Recursive": {
+            "look_back": 100,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.0015250869829489782,
+            "batch_size": 44,
+            "epochs": 82,
+            "rnn_units_layer_0": 15,
+            "rnn_units_layer_1": 32
+          },
+          "Direct": {
+            "look_back": 100,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.0015250869829489782,
+            "batch_size": 44,
+            "epochs": 82,
+            "rnn_units_layer_0": 15,
+            "rnn_units_layer_1": 32
+          },
+          "DirRec": {
+            "look_back": 300,
+            "num_hidden_layers": 2,
+            "learning_rate": 6.95812073050639e-05,
+            "batch_size": 30,
+            "epochs": 20,
+            "rnn_units_layer_0": 15,
+            "rnn_units_layer_1": 32
+          },
+          "MIMO": {
+            "look_back": 51,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.001519335526892746,
+            "batch_size": 51,
+            "epochs": 82,
+            "rnn_units_layer_0": 96,
+            "rnn_units_layer_1": 208
+          },
+          "DIRMO": {
+            "look_back": 51,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.001519335526892746,
+            "batch_size": 51,
+            "epochs": 82,
+            "rnn_units_layer_0": 96,
+            "rnn_units_layer_1": 208
+          }
+        },
+        "4": {
+          "Recursive": {
+            "look_back": 100,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.0015250869829489782,
+            "batch_size": 44,
+            "epochs": 82,
+            "rnn_units_layer_0": 15,
+            "rnn_units_layer_1": 32
+          },
+          "Direct": {
+            "look_back": 100,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.0015250869829489782,
+            "batch_size": 44,
+            "epochs": 82,
+            "rnn_units_layer_0": 15,
+            "rnn_units_layer_1": 32
+          },
+          "DirRec": {
+            "look_back": 100,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.0015250869829489782,
+            "batch_size": 44,
+            "epochs": 82,
+            "rnn_units_layer_0": 15,
+            "rnn_units_layer_1": 32
+          },
+          "MIMO": {
+            "look_back": 56,
+            "num_hidden_layers": 3,
+            "learning_rate": 0.0056240033221932485,
+            "batch_size": 193,
+            "epochs": 78,
+            "rnn_units_layer_0": 37,
+            "rnn_units_layer_1": 82,
+            "rnn_units_layer_2": 49
+          },
+          "DIRMO": {
+            "look_back": 80,
+            "num_hidden_layers": 1,
+            "learning_rate": 0.008943579566094106,
+            "batch_size": 111,
+            "epochs": 100,
+            "rnn_units_layer_0": 246
+          }
+        },
+        "6": {
+          "Recursive": {
+            "look_back": 100,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.0015250869829489782,
+            "batch_size": 44,
+            "epochs": 82,
+            "rnn_units_layer_0": 15,
+            "rnn_units_layer_1": 32
+          },
+          "Direct": {
+            "look_back": 100,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.0015250869829489782,
+            "batch_size": 44,
+            "epochs": 82,
+            "rnn_units_layer_0": 15,
+            "rnn_units_layer_1": 32
+          },
+          "DirRec": {
+            "look_back": 100,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.0015250869829489782,
+            "batch_size": 44,
+            "epochs": 82,
+            "rnn_units_layer_0": 15,
+            "rnn_units_layer_1": 32
+          },
+          "MIMO": {
+            "look_back": 91,
+            "num_hidden_layers": 6,
+            "learning_rate": 0.0005124476844228014,
+            "batch_size": 50,
+            "epochs": 73,
+            "rnn_units_layer_0": 50,
+            "rnn_units_layer_1": 28,
+            "rnn_units_layer_2": 82,
+            "rnn_units_layer_3": 33,
+            "rnn_units_layer_4": 22,
+            "rnn_units_layer_5": 15
+          },
+          "DIRMO": {
+            "look_back": 94,
+            "num_hidden_layers": 1,
+            "learning_rate": 0.0004258649277073723,
+            "batch_size": 28,
+            "epochs": 98,
+            "rnn_units_layer_0": 94
+          }
+        },
+        "8": {
+          "Recursive": {
+            "look_back": 100,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.0015250869829489782,
+            "batch_size": 44,
+            "epochs": 82,
+            "rnn_units_layer_0": 15,
+            "rnn_units_layer_1": 32
+          },
+          "Direct": {
+            "look_back": 100,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.0015250869829489782,
+            "batch_size": 44,
+            "epochs": 82,
+            "rnn_units_layer_0": 15,
+            "rnn_units_layer_1": 32
+          },
+          "DirRec": {
+            "look_back": 100,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.0015250869829489782,
+            "batch_size": 44,
+            "epochs": 82,
+            "rnn_units_layer_0": 15,
+            "rnn_units_layer_1": 32
+          },
+          "MIMO": {
+            "look_back": 65,
+            "num_hidden_layers": 3,
+            "learning_rate": 0.00019511832310862206,
+            "batch_size": 8,
+            "epochs": 66,
+            "rnn_units_layer_0": 8,
+            "rnn_units_layer_1": 63,
+            "rnn_units_layer_2": 240
+          },
+          "DIRMO": {
+            "look_back": 91,
+            "num_hidden_layers": 1,
+            "learning_rate": 0.00514732706312191,
+            "batch_size": 81,
+            "epochs": 89,
+            "rnn_units_layer_0": 49
+          }
+        },
+        "10": {
+          "Recursive": {
+            "look_back": 100,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.0015250869829489782,
+            "batch_size": 44,
+            "epochs": 82,
+            "rnn_units_layer_0": 15,
+            "rnn_units_layer_1": 32
+          },
+          "Direct": {
+            "look_back": 100,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.0015250869829489782,
+            "batch_size": 44,
+            "epochs": 82,
+            "rnn_units_layer_0": 15,
+            "rnn_units_layer_1": 32
+          },
+          "DirRec": {
+            "look_back": 100,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.0015250869829489782,
+            "batch_size": 44,
+            "epochs": 82,
+            "rnn_units_layer_0": 15,
+            "rnn_units_layer_1": 32
+          },
+          "MIMO": {
+            "look_back": 149,
+            "num_hidden_layers": 1,
+            "learning_rate": 0.0024519997428423335,
+            "batch_size": 83,
+            "epochs": 99,
+            "rnn_units_layer_0": 51
+          },
+          "DIRMO": {
+            "look_back": 177,
+            "num_hidden_layers": 1,
+            "learning_rate": 0.006203241662130155,
+            "batch_size": 247,
+            "epochs": 91,
+            "rnn_units_layer_0": 45
+          }
+        }
+      },
+      "node2_delay": {
+        "1": {
+          "look_back": 100,
+          "num_hidden_layers": 2,
+          "learning_rate": 0.0015250869829489782,
+          "batch_size": 44,
+          "epochs": 82,
+          "rnn_units_layer_0": 15,
+          "rnn_units_layer_1": 32
+        }
+      },
+      "node3_delay": {
+        "1": {
+          "look_back": 100,
+          "num_hidden_layers": 2,
+          "learning_rate": 0.0015250869829489782,
+          "batch_size": 44,
+          "epochs": 82,
+          "rnn_units_layer_0": 15,
+          "rnn_units_layer_1": 32
+        }
+      },
+      "node1_cpu": {
+        "1": {
+          "look_back": 100,
+          "num_hidden_layers": 2,
+          "learning_rate": 0.0015250869829489782,
+          "batch_size": 44,
+          "epochs": 82,
+          "rnn_units_layer_0": 15,
+          "rnn_units_layer_1": 32
+        }
+      },
+      "node2_cpu": {
+        "1": {
+          "look_back": 100,
+          "num_hidden_layers": 2,
+          "learning_rate": 0.0015250869829489782,
+          "batch_size": 44,
+          "epochs": 82,
+          "rnn_units_layer_0": 15,
+          "rnn_units_layer_1": 32
+        }
+      },
+      "node3_cpu": {
+        "1": {
+          "look_back": 100,
+          "num_hidden_layers": 2,
+          "learning_rate": 0.0015250869829489782,
+          "batch_size": 44,
+          "epochs": 82,
+          "rnn_units_layer_0": 15,
+          "rnn_units_layer_1": 32
+        }
+      },
+      "node1_ram": {
+        "1": {
+          "look_back": 100,
+          "num_hidden_layers": 2,
+          "learning_rate": 0.0015250869829489782,
+          "batch_size": 44,
+          "epochs": 82,
+          "rnn_units_layer_0": 15,
+          "rnn_units_layer_1": 32
+        }
+      },
+      "node2_ram": {
+        "1": {
+          "look_back": 100,
+          "num_hidden_layers": 2,
+          "learning_rate": 0.0015250869829489782,
+          "batch_size": 44,
+          "epochs": 82,
+          "rnn_units_layer_0": 15,
+          "rnn_units_layer_1": 32
+        }
+      },
+      "node3_ram": {
+        "1": {
+          "look_back": 100,
+          "num_hidden_layers": 2,
+          "learning_rate": 0.0015250869829489782,
+          "batch_size": 44,
+          "epochs": 82,
+          "rnn_units_layer_0": 15,
+          "rnn_units_layer_1": 32
+        }
+      }
+    },
+    "multivariate": {
+      "look_back": 100,
+      "num_hidden_layers": 2,
+      "learning_rate": 0.0015250869829489782,
+      "batch_size": 44,
+      "epochs": 82,
+      "rnn_units_layer_0": 15,
+      "rnn_units_layer_1": 32
+    },
+    "default": {
+      "look_back": 100,
+      "num_hidden_layers": 2,
+      "learning_rate": 0.0015250869829489782,
+      "batch_size": 44,
+      "epochs": 82,
+      "rnn_units_layer_0": 15,
+      "rnn_units_layer_1": 32
+    }
+  },
+  "GRU": {
+    "univariate": {
+      "node1_delay": {
+        "1": {
+          "look_back": 100,
+          "num_hidden_layers": 2,
+          "learning_rate": 0.0015250869829489782,
+          "batch_size": 44,
+          "epochs": 82,
+          "rnn_units_layer_0": 15,
+          "rnn_units_layer_1": 32
+        },
+        "2": {
+          "Recursive": {
+            "look_back": 100,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.0015250869829489782,
+            "batch_size": 44,
+            "epochs": 82,
+            "rnn_units_layer_0": 15,
+            "rnn_units_layer_1": 32
+          },
+          "Direct": {
+            "look_back": 100,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.0015250869829489782,
+            "batch_size": 44,
+            "epochs": 82,
+            "rnn_units_layer_0": 15,
+            "rnn_units_layer_1": 32
+          },
+          "DirRec": {
+            "look_back": 300,
+            "num_hidden_layers": 2,
+            "learning_rate": 6.95812073050639e-05,
+            "batch_size": 30,
+            "epochs": 20,
+            "rnn_units_layer_0": 15,
+            "rnn_units_layer_1": 32
+          },
+          "MIMO": {
+            "look_back": 51,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.001519335526892746,
+            "batch_size": 51,
+            "epochs": 82,
+            "rnn_units_layer_0": 96,
+            "rnn_units_layer_1": 208
+          },
+          "DIRMO": {
+            "look_back": 51,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.001519335526892746,
+            "batch_size": 51,
+            "epochs": 82,
+            "rnn_units_layer_0": 96,
+            "rnn_units_layer_1": 208
+          }
+        },
+        "4": {
+          "Recursive": {
+            "look_back": 100,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.0015250869829489782,
+            "batch_size": 44,
+            "epochs": 82,
+            "rnn_units_layer_0": 15,
+            "rnn_units_layer_1": 32
+          },
+          "Direct": {
+            "look_back": 100,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.0015250869829489782,
+            "batch_size": 44,
+            "epochs": 82,
+            "rnn_units_layer_0": 15,
+            "rnn_units_layer_1": 32
+          },
+          "DirRec": {
+            "look_back": 100,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.0015250869829489782,
+            "batch_size": 44,
+            "epochs": 82,
+            "rnn_units_layer_0": 15,
+            "rnn_units_layer_1": 32
+          },
+          "MIMO": {
+            "look_back": 56,
+            "num_hidden_layers": 3,
+            "learning_rate": 0.0056240033221932485,
+            "batch_size": 193,
+            "epochs": 78,
+            "rnn_units_layer_0": 37,
+            "rnn_units_layer_1": 82,
+            "rnn_units_layer_2": 49
+          },
+          "DIRMO": {
+            "look_back": 80,
+            "num_hidden_layers": 1,
+            "learning_rate": 0.008943579566094106,
+            "batch_size": 111,
+            "epochs": 100,
+            "rnn_units_layer_0": 246
+          }
+        },
+        "6": {
+          "Recursive": {
+            "look_back": 100,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.0015250869829489782,
+            "batch_size": 44,
+            "epochs": 82,
+            "rnn_units_layer_0": 15,
+            "rnn_units_layer_1": 32
+          },
+          "Direct": {
+            "look_back": 100,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.0015250869829489782,
+            "batch_size": 44,
+            "epochs": 82,
+            "rnn_units_layer_0": 15,
+            "rnn_units_layer_1": 32
+          },
+          "DirRec": {
+            "look_back": 100,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.0015250869829489782,
+            "batch_size": 44,
+            "epochs": 82,
+            "rnn_units_layer_0": 15,
+            "rnn_units_layer_1": 32
+          },
+          "MIMO": {
+            "look_back": 91,
+            "num_hidden_layers": 6,
+            "learning_rate": 0.0005124476844228014,
+            "batch_size": 50,
+            "epochs": 73,
+            "rnn_units_layer_0": 50,
+            "rnn_units_layer_1": 28,
+            "rnn_units_layer_2": 82,
+            "rnn_units_layer_3": 33,
+            "rnn_units_layer_4": 22,
+            "rnn_units_layer_5": 15
+          },
+          "DIRMO": {
+            "look_back": 94,
+            "num_hidden_layers": 1,
+            "learning_rate": 0.0004258649277073723,
+            "batch_size": 28,
+            "epochs": 98,
+            "rnn_units_layer_0": 94
+          }
+        },
+        "8": {
+          "Recursive": {
+            "look_back": 100,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.0015250869829489782,
+            "batch_size": 44,
+            "epochs": 82,
+            "rnn_units_layer_0": 15,
+            "rnn_units_layer_1": 32
+          },
+          "Direct": {
+            "look_back": 100,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.0015250869829489782,
+            "batch_size": 44,
+            "epochs": 82,
+            "rnn_units_layer_0": 15,
+            "rnn_units_layer_1": 32
+          },
+          "DirRec": {
+            "look_back": 100,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.0015250869829489782,
+            "batch_size": 44,
+            "epochs": 82,
+            "rnn_units_layer_0": 15,
+            "rnn_units_layer_1": 32
+          },
+          "MIMO": {
+            "look_back": 65,
+            "num_hidden_layers": 3,
+            "learning_rate": 0.00019511832310862206,
+            "batch_size": 8,
+            "epochs": 66,
+            "rnn_units_layer_0": 8,
+            "rnn_units_layer_1": 63,
+            "rnn_units_layer_2": 240
+          },
+          "DIRMO": {
+            "look_back": 91,
+            "num_hidden_layers": 1,
+            "learning_rate": 0.00514732706312191,
+            "batch_size": 81,
+            "epochs": 89,
+            "rnn_units_layer_0": 49
+          }
+        },
+        "10": {
+          "Recursive": {
+            "look_back": 100,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.0015250869829489782,
+            "batch_size": 44,
+            "epochs": 82,
+            "rnn_units_layer_0": 15,
+            "rnn_units_layer_1": 32
+          },
+          "Direct": {
+            "look_back": 100,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.0015250869829489782,
+            "batch_size": 44,
+            "epochs": 82,
+            "rnn_units_layer_0": 15,
+            "rnn_units_layer_1": 32
+          },
+          "DirRec": {
+            "look_back": 100,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.0015250869829489782,
+            "batch_size": 44,
+            "epochs": 82,
+            "rnn_units_layer_0": 15,
+            "rnn_units_layer_1": 32
+          },
+          "MIMO": {
+            "look_back": 149,
+            "num_hidden_layers": 1,
+            "learning_rate": 0.0024519997428423335,
+            "batch_size": 83,
+            "epochs": 99,
+            "rnn_units_layer_0": 51
+          },
+          "DIRMO": {
+            "look_back": 177,
+            "num_hidden_layers": 1,
+            "learning_rate": 0.006203241662130155,
+            "batch_size": 247,
+            "epochs": 91,
+            "rnn_units_layer_0": 45
+          }
+        }
+      },
+      "node2_delay": {
+        "1": {
+          "look_back": 100,
+          "num_hidden_layers": 2,
+          "learning_rate": 0.0015250869829489782,
+          "batch_size": 44,
+          "epochs": 82,
+          "rnn_units_layer_0": 15,
+          "rnn_units_layer_1": 32
+        }
+      },
+      "node3_delay": {
+        "1": {
+          "look_back": 100,
+          "num_hidden_layers": 2,
+          "learning_rate": 0.0015250869829489782,
+          "batch_size": 44,
+          "epochs": 82,
+          "rnn_units_layer_0": 15,
+          "rnn_units_layer_1": 32
+        }
+      },
+      "node1_cpu": {
+        "1": {
+          "look_back": 100,
+          "num_hidden_layers": 2,
+          "learning_rate": 0.0015250869829489782,
+          "batch_size": 44,
+          "epochs": 82,
+          "rnn_units_layer_0": 15,
+          "rnn_units_layer_1": 32
+        }
+      },
+      "node2_cpu": {
+        "1": {
+          "look_back": 100,
+          "num_hidden_layers": 2,
+          "learning_rate": 0.0015250869829489782,
+          "batch_size": 44,
+          "epochs": 82,
+          "rnn_units_layer_0": 15,
+          "rnn_units_layer_1": 32
+        }
+      },
+      "node3_cpu": {
+        "1": {
+          "look_back": 100,
+          "num_hidden_layers": 2,
+          "learning_rate": 0.0015250869829489782,
+          "batch_size": 44,
+          "epochs": 82,
+          "rnn_units_layer_0": 15,
+          "rnn_units_layer_1": 32
+        }
+      },
+      "node1_ram": {
+        "1": {
+          "look_back": 100,
+          "num_hidden_layers": 2,
+          "learning_rate": 0.0015250869829489782,
+          "batch_size": 44,
+          "epochs": 82,
+          "rnn_units_layer_0": 15,
+          "rnn_units_layer_1": 32
+        }
+      },
+      "node2_ram": {
+        "1": {
+          "look_back": 100,
+          "num_hidden_layers": 2,
+          "learning_rate": 0.0015250869829489782,
+          "batch_size": 44,
+          "epochs": 82,
+          "rnn_units_layer_0": 15,
+          "rnn_units_layer_1": 32
+        }
+      },
+      "node3_ram": {
+        "1": {
+          "look_back": 100,
+          "num_hidden_layers": 2,
+          "learning_rate": 0.0015250869829489782,
+          "batch_size": 44,
+          "epochs": 82,
+          "rnn_units_layer_0": 15,
+          "rnn_units_layer_1": 32
+        }
+      }
+    },
+    "multivariate": {
+      "look_back": 100,
+      "num_hidden_layers": 2,
+      "learning_rate": 0.0015250869829489782,
+      "batch_size": 44,
+      "epochs": 82,
+      "rnn_units_layer_0": 15,
+      "rnn_units_layer_1": 32
+    },
+    "default": {
+      "look_back": 100,
+      "num_hidden_layers": 2,
+      "learning_rate": 0.0015250869829489782,
+      "batch_size": 44,
+      "epochs": 82,
+      "rnn_units_layer_0": 15,
+      "rnn_units_layer_1": 32
+    }
+  },
+  "RNN": {
+    "univariate": {
+      "node1_delay": {
+        "1": {
+          "look_back": 100,
+          "num_hidden_layers": 2,
+          "learning_rate": 0.0015250869829489782,
+          "batch_size": 44,
+          "epochs": 82,
+          "rnn_units_layer_0": 15,
+          "rnn_units_layer_1": 32
+        },
+        "2": {
+          "Recursive": {
+            "look_back": 100,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.0015250869829489782,
+            "batch_size": 44,
+            "epochs": 82,
+            "rnn_units_layer_0": 15,
+            "rnn_units_layer_1": 32
+          },
+          "Direct": {
+            "look_back": 100,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.0015250869829489782,
+            "batch_size": 44,
+            "epochs": 82,
+            "rnn_units_layer_0": 15,
+            "rnn_units_layer_1": 32
+          },
+          "DirRec": {
+            "look_back": 300,
+            "num_hidden_layers": 2,
+            "learning_rate": 6.95812073050639e-05,
+            "batch_size": 30,
+            "epochs": 20,
+            "rnn_units_layer_0": 15,
+            "rnn_units_layer_1": 32
+          },
+          "MIMO": {
+            "look_back": 51,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.001519335526892746,
+            "batch_size": 51,
+            "epochs": 82,
+            "rnn_units_layer_0": 96,
+            "rnn_units_layer_1": 208
+          },
+          "DIRMO": {
+            "look_back": 51,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.001519335526892746,
+            "batch_size": 51,
+            "epochs": 82,
+            "rnn_units_layer_0": 96,
+            "rnn_units_layer_1": 208
+          }
+        },
+        "4": {
+          "Recursive": {
+            "look_back": 100,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.0015250869829489782,
+            "batch_size": 44,
+            "epochs": 82,
+            "rnn_units_layer_0": 15,
+            "rnn_units_layer_1": 32
+          },
+          "Direct": {
+            "look_back": 100,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.0015250869829489782,
+            "batch_size": 44,
+            "epochs": 82,
+            "rnn_units_layer_0": 15,
+            "rnn_units_layer_1": 32
+          },
+          "DirRec": {
+            "look_back": 100,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.0015250869829489782,
+            "batch_size": 44,
+            "epochs": 82,
+            "rnn_units_layer_0": 15,
+            "rnn_units_layer_1": 32
+          },
+          "MIMO": {
+            "look_back": 56,
+            "num_hidden_layers": 3,
+            "learning_rate": 0.0056240033221932485,
+            "batch_size": 193,
+            "epochs": 78,
+            "rnn_units_layer_0": 37,
+            "rnn_units_layer_1": 82,
+            "rnn_units_layer_2": 49
+          },
+          "DIRMO": {
+            "look_back": 80,
+            "num_hidden_layers": 1,
+            "learning_rate": 0.008943579566094106,
+            "batch_size": 111,
+            "epochs": 100,
+            "rnn_units_layer_0": 246
+          }
+        },
+        "6": {
+          "Recursive": {
+            "look_back": 100,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.0015250869829489782,
+            "batch_size": 44,
+            "epochs": 82,
+            "rnn_units_layer_0": 15,
+            "rnn_units_layer_1": 32
+          },
+          "Direct": {
+            "look_back": 100,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.0015250869829489782,
+            "batch_size": 44,
+            "epochs": 82,
+            "rnn_units_layer_0": 15,
+            "rnn_units_layer_1": 32
+          },
+          "DirRec": {
+            "look_back": 100,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.0015250869829489782,
+            "batch_size": 44,
+            "epochs": 82,
+            "rnn_units_layer_0": 15,
+            "rnn_units_layer_1": 32
+          },
+          "MIMO": {
+            "look_back": 91,
+            "num_hidden_layers": 6,
+            "learning_rate": 0.0005124476844228014,
+            "batch_size": 50,
+            "epochs": 73,
+            "rnn_units_layer_0": 50,
+            "rnn_units_layer_1": 28,
+            "rnn_units_layer_2": 82,
+            "rnn_units_layer_3": 33,
+            "rnn_units_layer_4": 22,
+            "rnn_units_layer_5": 15
+          },
+          "DIRMO": {
+            "look_back": 94,
+            "num_hidden_layers": 1,
+            "learning_rate": 0.0004258649277073723,
+            "batch_size": 28,
+            "epochs": 98,
+            "rnn_units_layer_0": 94
+          }
+        },
+        "8": {
+          "Recursive": {
+            "look_back": 100,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.0015250869829489782,
+            "batch_size": 44,
+            "epochs": 82,
+            "rnn_units_layer_0": 15,
+            "rnn_units_layer_1": 32
+          },
+          "Direct": {
+            "look_back": 100,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.0015250869829489782,
+            "batch_size": 44,
+            "epochs": 82,
+            "rnn_units_layer_0": 15,
+            "rnn_units_layer_1": 32
+          },
+          "DirRec": {
+            "look_back": 100,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.0015250869829489782,
+            "batch_size": 44,
+            "epochs": 82,
+            "rnn_units_layer_0": 15,
+            "rnn_units_layer_1": 32
+          },
+          "MIMO": {
+            "look_back": 65,
+            "num_hidden_layers": 3,
+            "learning_rate": 0.00019511832310862206,
+            "batch_size": 8,
+            "epochs": 66,
+            "rnn_units_layer_0": 8,
+            "rnn_units_layer_1": 63,
+            "rnn_units_layer_2": 240
+          },
+          "DIRMO": {
+            "look_back": 91,
+            "num_hidden_layers": 1,
+            "learning_rate": 0.00514732706312191,
+            "batch_size": 81,
+            "epochs": 89,
+            "rnn_units_layer_0": 49
+          }
+        },
+        "10": {
+          "Recursive": {
+            "look_back": 100,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.0015250869829489782,
+            "batch_size": 44,
+            "epochs": 82,
+            "rnn_units_layer_0": 15,
+            "rnn_units_layer_1": 32
+          },
+          "Direct": {
+            "look_back": 100,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.0015250869829489782,
+            "batch_size": 44,
+            "epochs": 82,
+            "rnn_units_layer_0": 15,
+            "rnn_units_layer_1": 32
+          },
+          "DirRec": {
+            "look_back": 100,
+            "num_hidden_layers": 2,
+            "learning_rate": 0.0015250869829489782,
+            "batch_size": 44,
+            "epochs": 82,
+            "rnn_units_layer_0": 15,
+            "rnn_units_layer_1": 32
+          },
+          "MIMO": {
+            "look_back": 149,
+            "num_hidden_layers": 1,
+            "learning_rate": 0.0024519997428423335,
+            "batch_size": 83,
+            "epochs": 99,
+            "rnn_units_layer_0": 51
+          },
+          "DIRMO": {
+            "look_back": 177,
+            "num_hidden_layers": 1,
+            "learning_rate": 0.006203241662130155,
+            "batch_size": 247,
+            "epochs": 91,
+            "rnn_units_layer_0": 45
+          }
+        }
+      },
+      "node2_delay": {
+        "1": {
+          "look_back": 100,
+          "num_hidden_layers": 2,
+          "learning_rate": 0.0015250869829489782,
+          "batch_size": 44,
+          "epochs": 82,
+          "rnn_units_layer_0": 15,
+          "rnn_units_layer_1": 32
+        }
+      },
+      "node3_delay": {
+        "1": {
+          "look_back": 100,
+          "num_hidden_layers": 2,
+          "learning_rate": 0.0015250869829489782,
+          "batch_size": 44,
+          "epochs": 82,
+          "rnn_units_layer_0": 15,
+          "rnn_units_layer_1": 32
+        }
+      },
+      "node1_cpu": {
+        "1": {
+          "look_back": 100,
+          "num_hidden_layers": 2,
+          "learning_rate": 0.0015250869829489782,
+          "batch_size": 44,
+          "epochs": 82,
+          "rnn_units_layer_0": 15,
+          "rnn_units_layer_1": 32
+        }
+      },
+      "node2_cpu": {
+        "1": {
+          "look_back": 100,
+          "num_hidden_layers": 2,
+          "learning_rate": 0.0015250869829489782,
+          "batch_size": 44,
+          "epochs": 82,
+          "rnn_units_layer_0": 15,
+          "rnn_units_layer_1": 32
+        }
+      },
+      "node3_cpu": {
+        "1": {
+          "look_back": 100,
+          "num_hidden_layers": 2,
+          "learning_rate": 0.0015250869829489782,
+          "batch_size": 44,
+          "epochs": 82,
+          "rnn_units_layer_0": 15,
+          "rnn_units_layer_1": 32
+        }
+      },
+      "node1_ram": {
+        "1": {
+          "look_back": 100,
+          "num_hidden_layers": 2,
+          "learning_rate": 0.0015250869829489782,
+          "batch_size": 44,
+          "epochs": 82,
+          "rnn_units_layer_0": 15,
+          "rnn_units_layer_1": 32
+        }
+      },
+      "node2_ram": {
+        "1": {
+          "look_back": 100,
+          "num_hidden_layers": 2,
+          "learning_rate": 0.0015250869829489782,
+          "batch_size": 44,
+          "epochs": 82,
+          "rnn_units_layer_0": 15,
+          "rnn_units_layer_1": 32
+        }
+      },
+      "node3_ram": {
+        "1": {
+          "look_back": 100,
+          "num_hidden_layers": 2,
+          "learning_rate": 0.0015250869829489782,
+          "batch_size": 44,
+          "epochs": 82,
+          "rnn_units_layer_0": 15,
+          "rnn_units_layer_1": 32
+        }
+      }
+    },
+    "multivariate": {
+      "look_back": 100,
+      "num_hidden_layers": 2,
+      "learning_rate": 0.0015250869829489782,
+      "batch_size": 44,
+      "epochs": 82,
+      "rnn_units_layer_0": 15,
+      "rnn_units_layer_1": 32
+    },
+    "default": {
+      "look_back": 100,
+      "num_hidden_layers": 2,
+      "learning_rate": 0.0015250869829489782,
+      "batch_size": 44,
+      "epochs": 82,
+      "rnn_units_layer_0": 15,
+      "rnn_units_layer_1": 32
+    }
+  },
+  "ARIMA":{
+    "p":1,
+    "d":0,
+    "q":1,
+    "window_length": 285
+  }
+}

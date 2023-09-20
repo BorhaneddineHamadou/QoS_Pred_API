@@ -7,3 +7,10 @@ tensorflow
 uvicorn
 jupyter
 pandas
+matplotlib
+scikit-learn
+statsmodels
+seaborn
+optuna
+
+
