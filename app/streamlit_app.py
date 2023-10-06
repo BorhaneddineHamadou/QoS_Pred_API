@@ -81,9 +81,9 @@ with st.sidebar:
     st.title("Edge QoS Predictor")
     st.info("""
             "Edge QoS Predictor" is a user-friendly application that utilizes 
-            advanced time series forecasting models to predict QoS values in edge environments. 
-            . This application is the primary interface for 
-            interacting with the Edge QoS Predictor API, which powers these essential 
+            advanced time series forecasting models to predict QoS values in edge environments.
+            This application is the primary interface for interacting with the 
+            Edge QoS Predictor API, which powers these essential 
             tasks and provides real-time predictions into edge network's performance.
 """)
 
