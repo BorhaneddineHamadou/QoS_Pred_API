@@ -42,7 +42,7 @@ Make sure you have Python installed on your system.
 5. Launch the frontend app:
 
     ```bash
-    streamlit run app/streamlit-app.py
+    streamlit run app/streamlit_app.py
     ```
 
 ## License
